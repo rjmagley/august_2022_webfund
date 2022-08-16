@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul, ol {
+    padding-left: 35px;
+}
+
+p {
+    margin: 5px;
+}
+
+#wrapper {
+    background-color: antiquewhite;
+    padding-top: 10px;
+}
+
+.section {
+    background-color: powderblue;
+    width: 31%;
+    padding: 10px;
+    margin: 8px;
+    border: 2px solid black;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.section p {
+    color: teal;
+}
+
+.section ul {
+    background-color: yellowgreen;
+}
+
+.section ul li {
+    color: brown;
+}
+
+li {
+    color: blue;
+    font-size: 24pt;
+}
+
+.section > li {
+    color: red;
+}
+
+img {
+    width: 100%;
+}
