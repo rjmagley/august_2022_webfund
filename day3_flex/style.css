@@ -1,0 +1,26 @@
+#navbar {
+    background-color: cadetblue;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navbar-sub {
+    background-color:green;
+    margin: 10px;
+    display: flex;
+}
+.navbar-item {
+    display: inline-block;
+    height:50px;
+    width: 100px;
+    background-color: aquamarine;
+}
+
+.navbar-item > a {
+    color: darkblue;
+    margin: auto;
+    vertical-align: top;
+    display: inline-block;
+}
