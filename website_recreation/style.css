@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#header1 {
+    background-color: blue;
+    height: 80px;
+}
+
+#header1content {
+    background-color: coral;
+    height: 100%;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+#header1logo {
+    width: 200px;
+    height: 100%;
+    background-color: black;
+    display: inline-block;
+}
+
+#header1search {
+    margin: auto;
+}
+
+#header1search > input {
+    margin: auto;
+    height: 50%;
+    border: 4px solid white;
+    border-radius:50px;
+    background-color: navy;
+    text-align: center;
+    font-size: 200%;
+    color: white;
+}
+
+#header1search > img {
+    position: relative;
+    right: 40px;
+    fill: white;
+}
+
+#header1nav {
+    width: 150px;
+    height: 100%;
+    background-color: black;
+    display: inline-block;
+}
+
+
+#header2 {
+    background-color: aqua;
+    height: 50px;
+}
+
+#header3 {
+    background-color:aquamarine;
+    height: 50px;
+}
+
+#main-content {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.temp-img {
+    background-color: black;
+    width: 95%;
+    height: 200px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.content-left {
+    display: inline-block;
+    width: 67%;
+    vertical-align: top;
+    margin-bottom: 50px;
+}
+
+.content-right {
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+}
+
+.content-right > p {
+    margin: 10px;
+}
+
+.story {
+    background-color: blanchedalmond;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+
+.content-button {
+    padding: 5px;
+    font-size: 25px;
+    color: white;
+    background-color: blue;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.story h1 {
+    margin: 15px;
+}
+
+.story-links {
+    margin-left: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    list-style: none;
+    
+}
+
+.story-links a {
+    color: black;
+    text-decoration: none;
+}
+
+#footer {
+    background-color: salmon;
+    height: 200px;
+}
