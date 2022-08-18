@@ -1,0 +1,16 @@
+#navbar {
+    background-color: cadetblue;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navbar-item {
+    display: inline-block;
+    height:50px;
+    width: 100px;
+    background-color: aquamarine;
+    color: darkblue;
+    padding: 5px;
+}

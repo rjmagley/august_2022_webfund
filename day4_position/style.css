@@ -1,0 +1,49 @@
+body {
+    background-color: lightgray;
+}
+
+div {
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+    background-color: black;
+}
+
+.sample-static {
+    position: static;
+    background-color: bisque;
+}
+
+.sample-relative {
+    position: relative;
+    background-color: royalblue;
+    left: 200px;
+    bottom: 200px;
+}
+
+.sample-absolute {
+    position: absolute;
+    background-color: aquamarine;
+    top: 200px;
+    right: 200px;
+}
+
+.sample-fixed {
+    position: fixed;
+    background-color: fuchsia;
+    margin: 0px;
+    width: 100%;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+}
+
+.sample-sticky {
+    position: sticky;
+    background-color: sienna;
+    margin: 0px;
+    width: 100%;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+}
