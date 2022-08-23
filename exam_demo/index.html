@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="topbar">
+        <h1>Keyboard Central</h1>
+        <div id="topbuttons">
+            <button onclick="newPostAlert();">New Post</button>
+            <button id="subscribe-button" onclick="handleSubscription()">Subscribe</button>
+            <button>Log In</button>
+        </div>
+    </div>
+    <div id="container">
+        <div id="topcontent">
+            <div class="col-3">
+                <img src="./images/keyboard1.jpeg">
+                <div id="topcontent-text">
+                    <h2>Keyboard of the Week</h2>
+                    <p>This is some text I can't rememeber</p>
+                </div>
+            </div>
+            <div class="col-1">
+                <h2>New Articles</h2>
+                <ul>
+                    <li>Article title</li>
+                    <li>Article title but longer</li>
+                    <li>Article title</li>
+                    <li>Article title but even more longerer</li>
+                </ul>
+            </div>
+            
+        </div>
+        <h2>Popular Boards</h2>
+        <div id="keyboards">
+            <div class="popular-keyboard">
+                <img src="./images/keyboard2.jpg">
+                <div class="popular-keyboard-content">
+                    <div>
+                        <h3>New board!</h3>
+                        <p>from TypeGuy</p>
+                    </div>
+                    <div class="content-links">
+                        <a href="">Gallery Link</a>
+                        <img src="./images/heart-icon.svg" onclick="likeButton(1);">
+                        <p id="likeCount1">14</p>
+                    </div>
+                </div>
+            </div>
+            <div class="popular-keyboard">
+                <img src="./images/keyboard3.jpg">
+                <div class="popular-keyboard-content">
+                    <div>
+                        <h3>Just Needs a case</h3>
+                        <p>from Xx_kailh_xX</p>
+                    </div>
+                    <div class="content-links">
+                        <a href="">Gallery Link</a>
+                        <img src="./images/heart-icon.svg" onclick="likeButton(2);">
+                        <p id="likeCount2">21</p>
+                    </div>
+                </div>
+            </div>
+            <div class="popular-keyboard">
+                <img src="./images/keyboard4.jpg">
+                <div class="popular-keyboard-content">
+                    <div>
+                        <h3>Found this in my closet...</h3>
+                        <p>from AllisonG</p>
+                    </div>
+                    <div class="content-links">
+                        <a href="">Gallery Link</a>
+                        <img src="./images/heart-icon.svg" onclick="likeButton(3);">
+                        <p id="likeCount3">28</p>
+                    </div>
+                </div>
+            </div>
+            <div class="popular-keyboard">
+                <img src="./images/keyboard5.jpg">
+                <div class="popular-keyboard-content">
+                    <div>
+                        <h3>Made this for my wife's office</h3>
+                        <p>from iLoveMyWife</p>
+                    </div>
+                    <div class="content-links">
+                        <a href="">Gallery Link</a>
+                        <img src="./images/heart-icon.svg" onclick="likeButton(4);">
+                        <p id="likeCount4">271</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

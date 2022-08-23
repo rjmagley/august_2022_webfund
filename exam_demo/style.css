@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    background-color: black;
+    height: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#topbar > h1 {
+    color: mediumaquamarine;
+
+}
+
+#topbuttons {
+
+}
+
+#subscribe-button {
+    background-color: goldenrod;
+}
+
+#container {
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+    background-color: mediumaquamarine;
+}
+
+#container > h2 {
+    margin: 10px;
+}
+
+#topcontent {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#topcontent img {
+    width: 30%;
+}
+
+#topcontent-text {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.col-3 {
+    flex: 3;
+}
+
+.col-1 {
+    flex: 1;
+}
+
+#keyboards {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.popular-keyboard {
+    width: 49%;
+    margin-bottom: 20px;
+    height: 300px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.popular-keyboard > img{
+    width: 65%;
+    margin: 1%;
+}
+
+.popular-keyboard-content {
+    display: inline-flex;
+    height: 100%;
+    width: 32%;
+    flex-direction: column;
+    justify-content: space-between;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content-links {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.content-links > * {
+    display: inline-block;
+}
+
+.content-links > img {
+    height: 30px;
+}
